@@ -145,7 +145,7 @@ function hitMe() {
   playerHand.push(playerTempCard);
     playerHandContainer.innerHTML += `<img src=${playerHand[i].image} id=${playerHand[i].rank}_of_${playerHand[i].suit}>`;
     calculatePoints('player');
-};
+};;onclick
 
 //stand button function
 function standLogic() {
